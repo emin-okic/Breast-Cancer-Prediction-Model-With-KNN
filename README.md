@@ -9,3 +9,10 @@ The algorithm works by first splitting the dataset into training and testing set
 This implementation is written from scratch using only basic Python libraries such as math and random, along with scikit-learn for loading the dataset. The goal is to provide a clear and intuitive understanding of how KNN works under the hood, rather than relying on high-level machine learning libraries.
 
 To run the project, create a Python environment with scikit-learn installed, then execute the main script. The program will train the model, evaluate it on a test set, and output the prediction accuracy. This project is a great starting point for understanding distance-based algorithms and how simple models can be applied to real-world problems like medical diagnosis.
+
+# References
+Please refer here for the dataset: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html#sklearn.datasets.load_breast_cancer
+
+For a deeper dive, refer to the original data set source: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+
+For setting up a sklearn env, refer here: For creating an sklearn virtual environment refer here: https://scikit-learn.org/stable/install.html
